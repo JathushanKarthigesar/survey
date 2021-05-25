@@ -21,6 +21,11 @@ input {
   margin-left: 0;
 }
 
+select {
+  width: 100px;
+  height: 30px;
+}
+
 header {
   /* text-align: center; */
   margin: 3rem 1rem;
