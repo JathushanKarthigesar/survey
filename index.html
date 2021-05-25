@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Netflix Survey Question</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>What do you think of the user interface of <a href="https://w3schools.com" target="_blank">W3School</a> website?</h1>
+      <a href="https://w3schools.com"><img src="images/w3school.jpg" alt="w3school-logo" /></a>
+    </header>
+    <form>
+      <div class="question-col">
+        <p class="label">What is W3Schools?</p>
+        <input type="text" id="input_intro" /><br />
+      </div>
+      <div class="question-col">
+        <p class="label">Where from you heard about this website?</p>
+        <input type="radio" id="facebook" name="location" value="facebook" />
+        <label for="facebook">Facebook</label><br />
+        <input type="radio" id="google" name="location" value="google" />
+        <label for="google">Google</label><br />
+        <input type="radio" id="youtube" name="location" value="youtube" />
+        <label for="youtube">Youtube</label><br />
+        <input type="radio" id="none" name="no_one" value="youtube" />
+        <label for="none">None of these above</label>
+      </div>
+      <div class="question-col">
+        <p class="label">What are your most favorite subjects in w3school</p>
+        <input type="checkbox" id="html" name="subject" value="html" />
+        <label for="html">HTML</label><br />
+        <input type="checkbox" id="css" name="subject" value="css" />
+        <label for="css">CSS</label><br />
+        <input type="checkbox" id="javascript" name="subject" value="javascript" />
+        <label for="javascript">Javascript</label><br />
+        <input type="checkbox" id="php" name="subject" value="php" />
+        <label for="php">PHP</label><br />
+        <input type="checkbox" id="python" name="subject" value="python" />
+        <label for="python">Python</label><br />
+        <input type="checkbox" id="java" name="subject" value="java" />
+        <label for="java">Java</label><br />
+        <input type="checkbox" id="c_plus_plus" name="subject" value="c_plus_plus" />
+        <label for="c_plus_plus">C++</label><br />
+      </div>
+      <div class="question-col">
+        <p class="label" for="comment">Write down your comment</p>
+        <textarea name="comment" id="comment" cols="70" rows="10"></textarea>
+      </div>
+
+      <button id="submit button" type="button" class="submit-btn">SUBMIT</button>
+    </form>
+    <footer>
+      <p>Git Page created by <b>JathushanKarthigesar.</b></p>
+    </footer>
+  </body>
+</html>
